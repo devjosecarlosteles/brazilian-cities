@@ -1,10 +1,10 @@
-import { IStates } from '../modules/cities/interfaces/IStates';
+import { IStates } from './interfaces/IStates';
 
-export const cities: IStates[] = [
+export const states: IStates[] = [
   {
-    sigla: 'AC',
-    nome: 'Acre',
-    cidades: [
+    uf: 'AC',
+    name: 'Acre',
+    cities: [
       'Acrelândia',
       'Assis Brasil',
       'Brasiléia',
@@ -30,9 +30,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'AL',
-    nome: 'Alagoas',
-    cidades: [
+    uf: 'AL',
+    name: 'Alagoas',
+    cities: [
       'Água Branca',
       'Anadia',
       'Arapiraca',
@@ -138,9 +138,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'AM',
-    nome: 'Amazonas',
-    cidades: [
+    uf: 'AM',
+    name: 'Amazonas',
+    cities: [
       'Alvarães',
       'Amaturá',
       'Anamã',
@@ -206,9 +206,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'AP',
-    nome: 'Amapá',
-    cidades: [
+    uf: 'AP',
+    name: 'Amapá',
+    cities: [
       'Amapá',
       'Calçoene',
       'Cutias',
@@ -228,9 +228,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'BA',
-    nome: 'Bahia',
-    cidades: [
+    uf: 'BA',
+    name: 'Bahia',
+    cities: [
       'Abaíra',
       'Abaré',
       'Acajutiba',
@@ -651,9 +651,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'CE',
-    nome: 'Ceará',
-    cidades: [
+    uf: 'CE',
+    name: 'Ceará',
+    cities: [
       'Abaiara',
       'Acarape',
       'Acaraú',
@@ -841,9 +841,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'DF',
-    nome: 'Distrito Federal',
-    cidades: [
+    uf: 'DF',
+    name: 'Distrito Federal',
+    cities: [
       'Águas Claras',
       'Arniqueira',
       'Brasília',
@@ -883,9 +883,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'ES',
-    nome: 'Espírito Santo',
-    cidades: [
+    uf: 'ES',
+    name: 'Espírito Santo',
+    cities: [
       'Afonso Cláudio',
       'Água Doce do Norte',
       'Águia Branca',
@@ -967,9 +967,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'GO',
-    nome: 'Goiás',
-    cidades: [
+    uf: 'GO',
+    name: 'Goiás',
+    cities: [
       'Abadia de Goiás',
       'Abadiânia',
       'Acreúna',
@@ -1219,9 +1219,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'MA',
-    nome: 'Maranhão',
-    cidades: [
+    uf: 'MA',
+    name: 'Maranhão',
+    cities: [
       'Açailândia',
       'Afonso Cunha',
       'Água Doce do Maranhão',
@@ -1442,9 +1442,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'MG',
-    nome: 'Minas Gerais',
-    cidades: [
+    uf: 'MG',
+    name: 'Minas Gerais',
+    cities: [
       'Abadia dos Dourados',
       'Abaeté',
       'Abre Campo',
@@ -2301,9 +2301,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'MS',
-    nome: 'Mato Grosso do Sul',
-    cidades: [
+    uf: 'MS',
+    name: 'Mato Grosso do Sul',
+    cities: [
       'Água Clara',
       'Alcinópolis',
       'Amambaí',
@@ -2384,9 +2384,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'MT',
-    nome: 'Mato Grosso',
-    cidades: [
+    uf: 'MT',
+    name: 'Mato Grosso',
+    cities: [
       'Acorizal',
       'Água Boa',
       'Alta Floresta',
@@ -2529,9 +2529,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'PA',
-    nome: 'Pará',
-    cidades: [
+    uf: 'PA',
+    name: 'Pará',
+    cities: [
       'Abaetetuba',
       'Abel Figueiredo',
       'Acará',
@@ -2678,9 +2678,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'PB',
-    nome: 'Paraíba',
-    cidades: [
+    uf: 'PB',
+    name: 'Paraíba',
+    cities: [
       'Água Branca',
       'Aguiar',
       'Alagoa Grande',
@@ -2907,9 +2907,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'PE',
-    nome: 'Pernambuco',
-    cidades: [
+    uf: 'PE',
+    name: 'Pernambuco',
+    cities: [
       'Abreu e Lima',
       'Afogados da Ingazeira',
       'Afrânio',
@@ -3098,9 +3098,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'PI',
-    nome: 'Piauí',
-    cidades: [
+    uf: 'PI',
+    name: 'Piauí',
+    cities: [
       'Acauã',
       'Agricolândia',
       'Água Branca',
@@ -3326,9 +3326,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'PR',
-    nome: 'Paraná',
-    cidades: [
+    uf: 'PR',
+    name: 'Paraná',
+    cities: [
       'Abatiá',
       'Adrianópolis',
       'Agudos do Sul',
@@ -3731,9 +3731,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'RJ',
-    nome: 'Rio de Janeiro',
-    cidades: [
+    uf: 'RJ',
+    name: 'Rio de Janeiro',
+    cities: [
       'Angra dos Reis',
       'Aperibé',
       'Araruama',
@@ -3829,9 +3829,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'RN',
-    nome: 'Rio Grande do Norte',
-    cidades: [
+    uf: 'RN',
+    name: 'Rio Grande do Norte',
+    cities: [
       'Acari',
       'Açu',
       'Afonso Bezerra',
@@ -4002,9 +4002,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'RO',
-    nome: 'Rondônia',
-    cidades: [
+    uf: 'RO',
+    name: 'Rondônia',
+    cities: [
       "Alta Floresta d'Oeste",
       'Alto Alegre do Parecis',
       'Alto Paraíso',
@@ -4060,9 +4060,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'RR',
-    nome: 'Roraima',
-    cidades: [
+    uf: 'RR',
+    name: 'Roraima',
+    cities: [
       'Alto Alegre',
       'Amajari',
       'Boa Vista',
@@ -4081,9 +4081,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'RS',
-    nome: 'Rio Grande do Sul',
-    cidades: [
+    uf: 'RS',
+    name: 'Rio Grande do Sul',
+    cities: [
       'Aceguá',
       'Água Santa',
       'Agudo',
@@ -4583,9 +4583,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'SC',
-    nome: 'Santa Catarina',
-    cidades: [
+    uf: 'SC',
+    name: 'Santa Catarina',
+    cities: [
       'Abdon Batista',
       'Abelardo Luz',
       'Agrolândia',
@@ -4882,9 +4882,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'SE',
-    nome: 'Sergipe',
-    cidades: [
+    uf: 'SE',
+    name: 'Sergipe',
+    cities: [
       'Amparo de São Francisco',
       'Aquidabã',
       'Aracaju',
@@ -4963,9 +4963,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'SP',
-    nome: 'São Paulo',
-    cidades: [
+    uf: 'SP',
+    name: 'São Paulo',
+    cities: [
       'Adamantina',
       'Adolfo',
       'Aguaí',
@@ -5614,9 +5614,9 @@ export const cities: IStates[] = [
     ],
   },
   {
-    sigla: 'TO',
-    nome: 'Tocantins',
-    cidades: [
+    uf: 'TO',
+    name: 'Tocantins',
+    cities: [
       'Abreulândia',
       'Aguiarnópolis',
       'Aliança do Tocantins',

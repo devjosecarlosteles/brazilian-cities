@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { IStates } from './interfaces/IStates';
-import { cities } from '../../data/cities.js';
+import { states } from '../../data/states.js';
 
 interface ICitiesServiceFindOneProps {
   where: {
@@ -11,23 +10,18 @@ interface ICitiesServiceFindOneProps {
 
 @Injectable()
 export class CitiesService {
-  findAll() {
-    return cities;
-  }
-
-  findOne({ where }: ICitiesServiceFindOneProps) {
+  findOne({ where }: ICitiesServiceFindOneProps): string[] {
     const { uf, name } = where;
 
     if (uf) {
-      return cities.find(
-        (state) => state.sigla.toLowerCase() === uf.toLowerCase(),
-      );
+      return states.find((state) => state.uf.toLowerCase() === uf.toLowerCase())
+        .cities;
     }
 
     if (name) {
-      return cities.find(
-        (state) => state.nome.toLowerCase() === name.toLowerCase(),
-      );
+      return states.find(
+        (state) => state.name.toLowerCase() === name.toLowerCase(),
+      ).cities;
     }
 
     throw new Error();
